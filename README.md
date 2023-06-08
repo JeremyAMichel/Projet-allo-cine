@@ -2,7 +2,7 @@
 
 Bienvenue dans le projet de fin de Prairie ! Nous allons concevoir un mini allo-ciné dont le but est d'afficher une liste de films ou de séries à partir d'un fichier .json qui ferra office de base de données.
 
-Pour ce faire, vous avez à votre disposition : Une arborescence simple de fichiers et de dossiers qui compse le projet. Une maquette pour vous aider a modélisé votre rendu. Un fichier movies.json qui vous servira de base de données. Le code source de bootstrap pour structurer les éléments du projet.
+Pour ce faire, vous avez à votre disposition : Une arborescence simple de fichiers et de dossiers qui compose le projet. Une maquette pour vous aider a modélisé votre rendu. Un fichier movies.json qui vous servira de base de données. Le code source de bootstrap pour structurer les éléments du projet.
 
 ## Consignes
 1. Relier les différents fichiers js et css du projet entre eux avec les bons appels dans index.html

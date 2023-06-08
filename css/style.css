@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Montserrat:wght@500&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: linear-gradient(to right, #eaafc8, #654ea3);
+}
+
+header {
+  background-color: #fff;
+  height: 100px;
+}
+
+body header h1 {
+  font-family: "Cinzel", sans-serif;
+}
+
+section {
+    background-color: #fff;
+}
+
+article h2, article h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 20px;
+}
+
+article {
+    border: 1px solid black;
+    min-height: 300px;
+}
+
+article div.col-lg-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article div.col-lg-8{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* Responsive Styling */
+
+@media (max-width: 992px) {
+
+    article{
+        flex-direction: column;
+    }
+
+    article div.col-lg-4{
+        margin-bottom: 1.5rem;
+    }
+
+    article h2, article>p{
+        text-align: center;
+    }
+
+    article h3{
+        text-align: end;
+    }
+
+    article div.col-lg-8{
+        gap: 15px;
+    }
+
+    article>div>p{
+        font-size : 18px;
+    }
+
+}
